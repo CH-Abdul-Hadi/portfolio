@@ -4,6 +4,13 @@
   box-sizing: border-box;
   background-color: #212529;
 }
+/* body */
+body {
+  background-color: #212529;
+}
+
+
+                                          /* landing page */
 /* intro test styling */
 .textIntro {
   padding: 11pc;
@@ -15,7 +22,7 @@
   height: 400px;
 }
 
-/* button styling landing page */
+/* button styling  */
 .button-52 {
   font-size: 16px;
   font-weight: 200px;
@@ -50,12 +57,12 @@
     padding: 13px 50px 13px;
   }
 }
-
 /* icon main page styling */
 .iconsLink {
   margin-top: -4pc;
 }
 
+                                        /* about page */
 /* about img styling */
 .imgMarginAbout {
   margin-top: 1rem;
@@ -78,7 +85,6 @@
   margin-left: 10rem;
   margin-top: -9rem;
 }
-
 /* skill set text border */
 .skillSetText1 {
   width: 30rem;
@@ -103,4 +109,61 @@
   height: 6rem;
   color: #ffc107;
   border: none;
+}
+
+
+                                              /* contact page */
+.contact-form {
+  max-width: 600px;
+  margin: 0;
+  padding: 30px;
+}
+.contact-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.form-control {
+  border-radius: 5px;
+}
+
+/* text styling */
+.textContactus {
+  padding-top: 6rem;
+  padding-left: 6rem;
+}
+/* contact us detail styling */
+.contactUsdetails {
+  margin-top: -15rem;
+}
+.contactUstext {
+  padding-left: 6rem;
+}
+/* contact us Input styling */
+.contactusInputstyling {
+  border: none;
+  border-bottom: solid #2b2d30;
+  outline: none;
+  border-radius: none;
+}
+.contactusInputstyling:focus {
+  border: none;
+  border-bottom: solid #ffc107;
+  outline: none;
+  border-radius: none;
+  color: #ffc107;
+}
+/* input feild placeholder */
+::placeholder {
+  color: #ffc107;
+}
+/* link tag  */
+.addressLink {
+  text-decoration: none;
+}
+/* contact link icons */
+.iconsLinkContact {
+  padding-left: 5rem;
+}
+.iconsLinkContact:hover {
+  color: #ffc107;
 }
