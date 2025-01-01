@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #212529;
+}
+/* intro test styling */
+.textIntro {
+  padding: 11pc;
+}
+/* intro img styling */
+.imgPadding {
+  padding-top: 9pc;
+  width: 200px;
+  height: 400px;
+}
+
+/* button styling landing page */
+.button-52 {
+  font-size: 16px;
+  font-weight: 200px;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid rgb(14, 13, 13);
+  cursor: pointer;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.button-52::after {
+  content: "";
+  background-color: #a83939;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+}
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
+}
+
+/* icon main page styling */
+.iconsLink{
+  margin-top: -4pc;
+}
