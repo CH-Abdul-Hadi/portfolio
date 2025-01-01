@@ -28,6 +28,7 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  border-radius: 30px;
 }
 .button-52::after {
   content: "";
@@ -51,6 +52,55 @@
 }
 
 /* icon main page styling */
-.iconsLink{
+.iconsLink {
   margin-top: -4pc;
+}
+
+/* about img styling */
+.imgMarginAbout {
+  margin-top: 1rem;
+  margin-left: 9rem;
+  width: 15rem;
+}
+/* text about me */
+.textAboutMe {
+  margin-top: 2rem;
+}
+/* MY Skills Orientation*/
+.mySkills {
+  writing-mode: vertical-lr;
+  display: inline;
+  margin-left: 8rem;
+  margin-top: 2rem;
+}
+/* Skill set  */
+.aboutSkillSet {
+  margin-left: 10rem;
+  margin-top: -9rem;
+}
+
+/* skill set text border */
+.skillSetText1 {
+  width: 30rem;
+  height: 6rem;
+  color: #ffc107;
+  border: none;
+}
+.skillSetText2 {
+  width: 20rem;
+  height: 6rem;
+  color: #ffc107;
+  border: none;
+}
+.skillSetText3 {
+  width: 10rem;
+  height: 6rem;
+  color: #ffc107;
+  border: none;
+}
+.skillSetText4 {
+  width: 5rem;
+  height: 6rem;
+  color: #ffc107;
+  border: none;
 }
