@@ -26,24 +26,31 @@
     >
       <!-- portfolio  text-->
       <div class="container-fluid">
-        <a class="navbar-brand text-warning" href="./index.html">Portfolio</a>
+        <a
+          class="navbar-brand text-warning navportfolioPadding"
+          href="./index.html"
+          >Portfolio</a
+        >
       </div>
       <!-- links -->
       <div
         class="collapse navbar-collapse d-flex justify-content-end"
         id="navbarSupportedContent"
       >
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 navListPadding">
           <li class="nav-item">
             <a
-              class="nav-link active text-light"
+              class="nav-link active text-light trytest"
               aria-current="page"
               href="./index.html"
               >Home</a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" href="#"
+            <a
+              class="nav-link active text-light"
+              aria-current="page"
+              href="./about.html"
               >About</a
             >
           </li>
@@ -85,6 +92,7 @@
         <div class="col-6">
           <div class="p-3 text-light">
             <div class="contact-form">
+              <!-- web3 form -->
               <form action="https://api.web3forms.com/submit" method="POST">
                 <input
                   type="hidden"
@@ -93,9 +101,13 @@
                 />
                 <!-- Name Field -->
                 <div class="mb-3">
-                  <label for="name" class="form-label text-white-50"></label>
+                  <label
+                    for="name"
+                    class="form-label text-white-50 contactusInputstyling"
+                  ></label>
                   <input
                     type="text"
+                    name="name"
                     class="form-control bg-dark contactusInputstyling"
                     id="name"
                     placeholder="Your name"
@@ -108,6 +120,7 @@
                   <label for="email" class="form-label text-white-50"></label>
                   <input
                     type="email"
+                    name="email"
                     class="form-control bg-dark contactusInputstyling"
                     id="email"
                     placeholder="Mail Address"
@@ -119,6 +132,7 @@
                 <div class="mb-3">
                   <label for="message" class="form-label text-white-50"></label>
                   <textarea
+                    name="message"
                     class="form-control bg-dark contactusInputstyling"
                     id="message"
                     rows="4"
@@ -143,10 +157,14 @@
           <div class="p-3 contactUsdetails text-light">
             <!-- Address -->
             <p class="contactUstext text-warning">
-              <a href="https://wa.me/923279058035">+92-333-3429487</a>
+              <a
+                href="https://wa.me/923279058035"
+                class="text-warning addressLink"
+                >+92-333-3429487</a
+              >
               <br />
             </p>
-            <p class="contactUstext">
+            <p class="contactUstext addressLink">
               <a
                 href="mailto:sabdulhadi016@gmail.com"
                 class="text-warning addressLink"
